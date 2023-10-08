@@ -1,7 +1,7 @@
 describe('Página de cadastro', () => {
 
     beforeEach(() => {
-        cy.visit('http://localhost:4200')
+        cy.visit('https://3076-cypress-alurapic-front.vercel.app/')
     })
 
     it('Verifica mensagens de campos obrigatórios na página de cadastro', () => {
