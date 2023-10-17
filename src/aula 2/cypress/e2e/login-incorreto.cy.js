@@ -1,7 +1,7 @@
 describe('Página de login', () => {
 
     beforeEach(() => {
-        cy.visit('http://localhost:4200')
+        cy.visit('https://3076-cypress-alurapic-front.vercel.app/#/home')
     })
 
         it('Verifica mensagens de campos obrigatórios na página de login', () => {
