@@ -1,6 +1,6 @@
 describe('template spec', () => {
     it('passes', () => {
-      cy.visit('https://3076-cypress-alurapic-front.vercel.ap')
+      cy.visit('https://3076-cypress-alurapic-front.vercel.app')
       cy.contains('a', 'Register now').click();
       cy.get('[data-test="regiter"]').click
       cy.get('input[formcontrolname="email"]').type('lllll@lll.com');
