@@ -1,6 +1,8 @@
 describe('Página de cadastro', () => {
     it('Preencher os campos do formulário corretamente para cadastrar um novo usuário', () => {
-      cy.visit('http://localhost:4200/')
+      cy.visit('https://3076-cypress-alurapic-front.vercel.ap')
+
+      const usuarios = require('../fixtures/')
       cy.get('[data-test="register"]').click();
       cy.get('input[data-test="email"]').type('lllll@lll.com');
       cy.get('input[data-test="fullName"]').type('Lllll Lllll');
