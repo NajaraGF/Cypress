@@ -7,7 +7,7 @@ class Cadastro {
     }
     
     preencherFormulario() {
-        cy.get('input[data-test="email"]').type('lllll@lll.com');
+        cy.get('input[data-test="email"]').type('najaguiland@gmail.com');
         cy.get('input[data-test="fullName"]').type('Lllll Lllll');
         cy.get('input[data-test="registerUserName"]').type('lllllllll');
         cy.get('input[data-test="registerPassword"]').type('LllllLllll');

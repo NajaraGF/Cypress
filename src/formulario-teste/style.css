@@ -1,0 +1,16 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: flex;
+}
+
+input {
+  width: 70%;
+  height: 2rem;
+}
