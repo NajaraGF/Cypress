@@ -1,5 +1,6 @@
 # Cypress
-Automação de testes E2E
+
+Este repositório tem como objetivo um estudo como: Automação de testes E2E.
 
 Realizar testes funcionais de cadastro correto e incorreto no site AluraPic, como nos demais testes, como: login correto e incorreto.
 
